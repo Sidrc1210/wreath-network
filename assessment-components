@@ -1,0 +1,13 @@
+#Assessment Components
+
+The penetration test encompassed the following components:
+•	External Penetration Testing (EPT):
+Targeted the organization’s publicly accessible infrastructure. This phase included enumeration, vulnerability identification, and exploitation of external-facing services to gain initial access.
+•	Internal Penetration Testing (IPT):
+Simulated a scenario where an attacker had gained a foothold within the internal network. This included privilege escalation, lateral movement, pivoting through internal systems, and extraction of sensitive credentials and files.
+•	Persistence and Post-Exploitation:
+Evaluated the extent to which an attacker could maintain access and further compromise the network, including the creation of user accounts, installation of backdoors, and service abuse.
+•	Tool Utilization:
+A combination of manual testing techniques and open-source tools such as Nmap, Mimikatz, Evil-WinRM, sshuttle, Chisel, and PowerShell Empire were employed to ensure thorough assessment coverage.
+•	Adherence to Frameworks and Standards:
+The engagement was conducted in alignment with industry standards, including the MITRE ATT&CK framework, OWASP Top 10, and NIST SP 800-115.
