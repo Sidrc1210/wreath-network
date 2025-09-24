@@ -1,0 +1,38 @@
+# Tools
+
+#Tools
+
+
+The room allows you to download task files which includes the tools that maybe necessary for conducting the Penetration Test. But, here I have listed all the tools that I used and the url links or commands to download them. 
+
+Tools will be categorized as per 
+
+Tool name : function: source: miscellaneous information
+
+•	nmap: reconnaissance: https://nmap.org/ : generally in built in Kali Linux
+
+•	Binaries of - to be planted and used from compromised hosts without dependencies
+
+o	socat: forking traffic: https://github.com/aledbf/socat-static-binary 
+o	nmap: recon from compromised host: https://github.com/opsec-infosec/nmap-static-binaries
+o	chisel: pivoting through internal network hosts: https://github.com/jpillora/chisel: different scripts for Linux and Windows target host
+
+•	shuttle: Pivoting:https://github.com/sshuttle/sshuttle: subnet wide tunnel, target host must be Linux OS
+
+•	evil-winrm: Exploitation, shell: only for windows target host
+
+•	netcat: listener : https://nmap.org/download.html#linux-rpm: (used here for catching reverse shells)
+
+•	Crackstation: online hash cracker: https://crackstation.net/
+
+•	Invoke-Portscan.ps1: Enumeration for Windows: https://www.powershellgallery.com/packages/NetworkScan/0.0.1/Content/Invoke-PortScan.ps1
+
+•	exiftool: editing metadata: https://exiftool.org/install.html: command line tool for editing metadata within variety of formats like images, audio and video
+
+•	Php obfuscator: obfuscator for Php code: https://github.com/mnestorov/php-obfuscator
+
+•	mcs - mono: compiler for C# programming language: 
+
+•	smbserver.py - enables smb share
+
+•	secretsdump.py - post exploitation Python script which extracts sensitive credentials and secrets (NTDS.dit, SAM, and .SYSTEM registry hives).
